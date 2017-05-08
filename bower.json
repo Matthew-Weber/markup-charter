@@ -1,0 +1,17 @@
+{
+  "name": "markup-charter",
+  "description": "Reuters text markup",
+  "main": [
+    "scss/markupstyles.scss",
+    "dist/js/markup.js",
+    "jst/*.html",
+    "chartBlocks/*.md"    
+  ],
+  "dependencies": {
+    "charter-commons": "https://github.com/Matthew-Weber/charter-commons.git#*",
+  },   
+  "version": "0.0.1",
+   "ignore": [
+    "/.*"
+  ]
+}

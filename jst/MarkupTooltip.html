@@ -1,0 +1,13 @@
+<p class="tooltip-text"><%=t.comment%></p>
+<%if (t.data.byline){%>
+	<p class="graphic-source mt-1"><%=t.data.byline%>
+		<%if (t.data.title){%>
+			- <%=t.data.title%>
+		<%}%>		
+	</p>
+
+<%}%>
+<%if (t.data.link){%> 
+	<p class="link mt-1">CLICK FOR RELATED STORY</p>
+
+<%}%>		
